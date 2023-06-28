@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Tanvir Mahmud</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Baloo+Chettan+2|Tangerine&display=swap" rel="stylesheet">
-	<link rel="icon" href="img/logo.png">
+	<link rel="icon" href="https://vikalp2502.github.io/Portfolio_Website/img/logo.png">
 </head>
 <body>
 	<header>
@@ -20,12 +20,12 @@
         </nav>
 	</header>
 	<div class="top-container">
-		<img id="top-cloud" src="img/cloud.png" alt="cloud">
+		<img id="top-cloud" src="https://vikalp2502.github.io/Portfolio_Website/img/cloud.png" alt="cloud">
 		<div class="Intro">
-			<h1>I'm Vikalp </h1>
-	        <p id="p1">a full stack developer.</p> 
+			<h1>I'm Tanvir </h1>
+	        <p id="p1">a Python Developer.</p> 
 		</div>
-		<img id="bottom-cloud" src="img/cloud.png" alt="cloud">
+		<img id="bottom-cloud" src="https://vikalp2502.github.io/Portfolio_Website/img/cloud.png" alt="cloud">
 		<img id="mountain" src="img/mountain2.png" alt="mountain-img">
 		<div class="bubbles">
 			<div class="bubble"></div>
@@ -94,6 +94,6 @@
   		</div>
  		 <p class="copyright">© 2020 <a href="#" class="f-link">Vikalp Kaushik.</a> All rights reserved.</p> 
 	</footer>
-<script type="text/javascript" src="main.js"></script>
+<script src="{{ url_for('static', filename='main.js') }}"></script>
 </body>
 </html>
